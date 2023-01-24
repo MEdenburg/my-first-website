@@ -17,6 +17,7 @@ body {
     display: inline-block;
     text-align: left;
     font-size: 25px;
+    list-style: none;
 }
 .marcus-image {
     border-width: 5px;
