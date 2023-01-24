@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcus Edenburg</title>
-    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/index.css">    
 </head>
-
 <body>
     <header>
-        <h1><center>Marcus Edenburg</center></h1>    
-        <nav>   
-            <ul>
-                <li><a href="#section1">Arbetslivserfarenhet</a></li>
-                <li><a href="#section2">Utbildning</a></li>
-                <li><a href="#section3">Certifieringar och licenser</a></li>
-            </ul>
+        <h1>Marcus Edenburg</h1>    
+        <nav>
+            <div class="list">
+                <ul class="listcontents">
+                    <li><a href="#work.section">Arbetslivserfarenhet</a></li>
+                    <li><a href="#education.section">Utbildning</a></li>
+                    <li><a href="#licenses.section">Certifieringar och licenser</a></li>
+                    <li><a href="#contactinfo">Kontaktinformation</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <section id="section1">
+        <section id="work.section">
             <h2>ARBETSLIVSERFARENHET</h2>
+            <br>
             <h3>Teamleader</h3>
             <p><b>Citymail AB</b> - Helsingborg</p>
             <p>November 2022 - Maj 2022</p>
@@ -33,7 +37,7 @@
                Vi såg till att samtliga av våra medarbetare
                utförde sina uppgifter utefter de rutiner som fanns, 
                och följde kontinuerligt upp.</p>
-               <br>
+            <br>
             <h3>Allt i allo</h3>
             <p><b>Behovstanställning Tergent AB</b> - Helsingborg</p>
             <p>2017-2022</p>
@@ -51,7 +55,7 @@
             <p>November 2018 - Maj 2019</p>
             <br>
         </section>
-        <section id="section2">
+        <section id="education.section">
             <h2>UTBILDNING</h2>
             <br>
             <h3>Gymnasieutbildning i Naturvetenskap</h3>
@@ -59,19 +63,19 @@
             <p>Augusti 2014 - Juni 2017</p>
             <br>
         </section>
-        <section id="section3">
+        <section id="licenses.section">
             <h2>Certifieringar och licenser</h2>
             <br>
             <h3>Truckkort TLP 10 A &#38; B</h3>
             <p>Juni 2016</p>
             <p>Trucktyp A1-A4 B1-B6</p>
-            <img src="images/marcus.jpg" alt="marcus-face">
+            <img class="resize" src="images/marcus.jpg" alt="marcus-face" title="marcus-face">
         </section>
     </main>
-    <footer>
-        <p><center>Helsingborg 25246</center></p>
-        <p><center>marcus.edenburg@hotmail.com</center></p>
-        <p><center>+46723541528</center></p>   
+    <footer id="contactinfo">
+        <p>Helsingborg 25246</p>
+        <p>marcus.edenburg@hotmail.com</p>
+        <p>+46723541528</p>   
     </footer>
 </body>
 </html>
