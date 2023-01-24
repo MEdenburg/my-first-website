@@ -1,25 +1,24 @@
-h1 {
+body {
+    background-image: url(../images/treesnow.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header {
     font-size: 60px;
     font-weight: 500;
     font-style: oblique;
     text-align: center;
     background-color: rgb(169, 227, 246);
 }
-div.list {
+.list {
     text-align: center;
 }
-ul.listcontents {
+.listcontents {
     display: inline-block;
     text-align: left;
     font-size: 25px;
 }
-
-body {
-    background-image: url(../images/treesnow.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-img {
+.marcus-image {
     border-width: 5px;
     border-style: solid;
     border-color: rgb(169, 227, 246);
@@ -27,7 +26,7 @@ img {
     width: 300px;
     height: auto;
 }
-footer {
+.contact-info {
     text-align: center;
     background-color: rgb(169, 227, 246);
 }
