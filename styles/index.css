@@ -31,3 +31,6 @@ body {
     text-align: center;
     background-color: rgb(169, 227, 246);
 }
+.margin {
+    margin-left: 25px;
+}
